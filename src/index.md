@@ -17,6 +17,6 @@ In diesem Skript geht es darum, wie Teams entstehen, wachsen und wie wir diesen 
 
 <ul class="chapter-list">
   {% for page in collections.kapitel %}
-    <li><a href="{{ page.url }}">{{ page.data.title }}</a></li>
+    <li><a href=".{{ page.url | url }}">{{ page.data.title }}</a></li>
   {% endfor %}
 </ul>

@@ -35,7 +35,7 @@
                     <ul>
                         {% for seite in collections.kapitel %}
                             <li>
-                                <a href="{{ seite.url }}" class="{% if page.url == seite.url %}active{% endif %}">
+                                <a href=".{{ seite.url }}" class="{% if page.url == seite.url %}active{% endif %}">
                                     {{ seite.data.title }}
                                 </a>
                             </li>
