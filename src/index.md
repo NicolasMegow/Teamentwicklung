@@ -3,6 +3,8 @@ title: "Teamentwicklung - Inhaltsverzeichnis"
 layout: layout.njk
 ---
 
+<img src="{{ '/assets/EinBoot.png' | url }}" alt="EinBoot" width="500" style="padding: 0;" />
+
 # Teamentwicklung
 
 Jede\*r kennt es: Man betritt einen neuen Raum, setzt sich an einen unbekannten Tisch, umgeben von Menschen mit unterschiedlichen Hintergründen, Ideen und Erwartungen. Noch ist es kein Team, nur eine Gruppe.

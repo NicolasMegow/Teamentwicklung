@@ -37,11 +37,15 @@
                         -3.496535,1.567413 -3.496535,3.494928 0,1.927513 1.567413,3.496534 3.496535,3.496534 1.927515,0 3.494927,-1.569021
                         3.494927,-3.496534"/>
                     </svg>
+                    <h1>
+                        <a href="/Teamentwicklung/">Teamentwicklung</a>
+                    </h1>
+                    <!-- Mobile Nav Toggle -->
+                    <button class="nav-toggle" aria-label="Menü öffnen" onclick="toggleNav()">
+                        ☰
+                    </button>
                 </div>
-                <h1>
-                    <a href="/Teamentwicklung/">Teamentwicklung</a>
-                </h1>
-                <nav>
+                <nav id="sidebar-nav">
                     <ul>
                         
                             <li>
@@ -78,7 +82,8 @@
                 </nav>
             </aside>
             <main class="content">
-                <h1>Teamentwicklung</h1>
+                <img src="/Teamentwicklung/assets/EinBoot.png" alt="EinBoot" width="500" style="padding: 0;" />
+<h1>Teamentwicklung</h1>
 <p>Jede*r kennt es: Man betritt einen neuen Raum, setzt sich an einen unbekannten Tisch, umgeben von Menschen mit unterschiedlichen Hintergründen, Ideen und Erwartungen. Noch ist es kein Team, nur eine Gruppe.</p>
 <p>Erst mit der Zeit entsteht etwas Gemeinsames: ein Ziel, ein Verständnis füreinander, ein Gefühl von Zusammenhalt. Man beginnt, sich abzustimmen, Konflikte auszuhalten, Verantwortung zu teilen und manchmal auch gemeinsam zu scheitern, um daraus zu lernen.</p>
 <p>Teamentwicklung ist genau dieser Weg: ein Prozess, der Menschen verbindet, Unterschiede produktiv macht und Vertrauen wachsen lässt. Er verlangt Geduld, Aufmerksamkeit und Bereitschaft, nicht nur auf Ergebnisse, sondern auch auf Beziehungen zu achten.</p>
@@ -93,10 +98,18 @@
 </ul>
 
                 <footer>
-                    CC0. Version 1.0. Autoren: Nicolas Megow (Inhalt) & ChatGPT (narrativer Stil). <br>Diese Website verwendet keine
+                    CC0. Version 1.0. <br> Autoren: Nicolas Megow (Inhalt) & ChatGPT (narrativer Stil). <br>Diese Website verwendet keine
                     Cookies.
                 </footer>
             </main>
-        </body>
+        </div>
     </body>
-</html></div></body></html>
+</html>
+<script>
+    function toggleNav() {
+        document
+            .getElementById('sidebar-nav')
+            .classList
+            .toggle('open');
+    }
+</script>

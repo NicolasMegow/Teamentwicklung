@@ -37,11 +37,15 @@
                         -3.496535,1.567413 -3.496535,3.494928 0,1.927513 1.567413,3.496534 3.496535,3.496534 1.927515,0 3.494927,-1.569021
                         3.494927,-3.496534"/>
                     </svg>
+                    <h1>
+                        <a href="/Teamentwicklung/">Teamentwicklung</a>
+                    </h1>
+                    <!-- Mobile Nav Toggle -->
+                    <button class="nav-toggle" aria-label="Menü öffnen" onclick="toggleNav()">
+                        ☰
+                    </button>
                 </div>
-                <h1>
-                    <a href="/Teamentwicklung/">Teamentwicklung</a>
-                </h1>
-                <nav>
+                <nav id="sidebar-nav">
                     <ul>
                         
                             <li>
@@ -88,10 +92,18 @@
 </div>
 
                 <footer>
-                    CC0. Version 1.0. Autoren: Nicolas Megow (Inhalt) & ChatGPT (narrativer Stil). <br>Diese Website verwendet keine
+                    CC0. Version 1.0. <br> Autoren: Nicolas Megow (Inhalt) & ChatGPT (narrativer Stil). <br>Diese Website verwendet keine
                     Cookies.
                 </footer>
             </main>
-        </body>
+        </div>
     </body>
-</html></div></body></html>
+</html>
+<script>
+    function toggleNav() {
+        document
+            .getElementById('sidebar-nav')
+            .classList
+            .toggle('open');
+    }
+</script>
