@@ -1,6 +1,7 @@
 ---
 title: "Gemeinsames Verständnis"
 layout: layout.njk
+next: "/kapitel-4/"
 ---
 
 # Integration durch gemeinsames Verständnis

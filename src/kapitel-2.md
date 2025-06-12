@@ -1,6 +1,7 @@
 ---
 title: "Nähe und Unterschiedlichkeit"
 layout: layout.njk
+next: "/kapitel-3/"
 ---
 
 # Teamentwicklung zwischen Nähe und Unterschiedlichkeit

@@ -1,6 +1,7 @@
 ---
 title: "Persönliche Beziehungen"
 layout: layout.njk
+next: "/kapitel-5/"
 ---
 
 # Differenzierung durch persönliche Beziehungen

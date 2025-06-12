@@ -49,6 +49,11 @@
             </aside>
             <main class="content">
                 {{ content | safe }}
+                {% if next %}
+                    <div class="next-chapter" style="margin-top: 3rem;">
+                        <a href="{{ next | url }}" class="next-link">→ Nächste Seite</a>
+                    </div>
+                {% endif %}
                 <footer>
                     CC0. Version 1.0. <br> Autoren: Nicolas Megow (Inhalt) & ChatGPT (narrativer Stil). <br>Diese Website verwendet keine
                     Cookies.

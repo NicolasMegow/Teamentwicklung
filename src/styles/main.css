@@ -181,6 +181,17 @@ footer {
   color: var(--color-link-hover);
 }
 
+.next-link {
+  font-family: "Lato", sans-serif;
+  color: var(--color-link);
+  text-decoration: none;
+}
+
+.next-link:hover {
+  color: var(--color-link-hover);
+  text-decoration: none;
+}
+
 .nav-toggle {
   display: none;
   background: none;

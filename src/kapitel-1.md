@@ -1,6 +1,7 @@
 ---
 title: "Teams als Systeme"
 layout: layout.njk
+next: "/kapitel-2/"
 ---
 
 # Systemverständnis von Teams
