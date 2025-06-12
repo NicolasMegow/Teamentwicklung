@@ -1,6 +1,7 @@
 // .eleventy.js
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/styles");
+  eleventyConfig.addPassthroughCopy("src/assets");
 
   eleventyConfig.addCollection("kapitel", function (collectionApi) {
     return collectionApi.getFilteredByGlob("src/kapitel-*.md").sort((a, b) => {
@@ -9,6 +10,7 @@ module.exports = function (eleventyConfig) {
   });
 
   return {
+    pathPrefix: "/Teamentwicklung/",
     dir: {
       input: "src",
       includes: "includes",
